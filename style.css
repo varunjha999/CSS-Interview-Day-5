@@ -1,0 +1,55 @@
+.trans {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: width 2s ;
+    cursor: pointer;
+}
+.trans:hover {
+    width: 300px;
+    background-color: aqua;
+}
+.transf {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: rgb(128, 22, 228);
+    transform: rotate(10deg);
+    display: block;
+    /* transform: skewY(20deg);   
+    transform: scaleY(1.5); */
+}
+.transf:hover {
+    width: 300px;
+    background-color: rgb(243, 18, 123);
+
+}
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: yellow;
+    display: grid;
+    justify-content: center ;
+
+}
+.item1 {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: aqua;
+}
+.item2 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 255, 85);
+}
+.item3 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 0, 106);
+}
+.item4 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(76, 0, 255);
+}
